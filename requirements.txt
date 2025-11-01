@@ -1,0 +1,16 @@
+streamlit
+streamlit-webrtc
+opencv-python-headless
+deepface
+tensorflow
+tf-keras
+pandas
+librosa
+numpy
+flwr
+scikit-learn
+webrtcvad-wheels
+pyaudioscipy
+pydantic
+plotly
+altair
