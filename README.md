@@ -1,11 +1,11 @@
-"""
-Postpartum Wellness Monitor - Setup Guide & Quick Start
+# Postpartum Wellness Monitor - Setup Guide & Quick Start
 
 This directory contains a complete federated learning system for postpartum wellness monitoring.
 The system analyzes facial emotion, voice tone, and heart rate in real-time while preserving privacy.
 
 DIRECTORY STRUCTURE:
 =====================================
+```
 .
 ├── app.py                      # Main Streamlit application
 ├── server.py                   # Federated Learning Server (Flower)
@@ -14,7 +14,7 @@ DIRECTORY STRUCTURE:
 ├── models/
 │   └── emotion_model.h5       # (Download pre-trained Keras model)
 └── README.md
-
+```
 QUICK START:
 =====================================
 
@@ -118,29 +118,6 @@ Core Libraries:
 - scikit-learn: Machine learning (Random Forest)
 - flwr: Federated Learning framework
 
-TROUBLESHOOTING:
-=====================================
-
-Q: "No module named streamlit"
-A: Make sure you've activated your virtual environment and ran:
-   pip install -r requirements.txt
-
-Q: "deepface model downloading takes too long"
-A: DeepFace downloads models on first use. This is normal (1-2 min).
-   Subsequent runs will be much faster.
-
-Q: "pyaudio installation fails"
-A: On Mac: brew install portaudio && pip install pyaudio
-   On Ubuntu: sudo apt-get install portaudio19-dev && pip install pyaudio
-   On Windows: Use pre-built wheel from https://www.lfd.uci.edu/~gohlke/pythonlibs/
-
-Q: "Webcam/microphone not working"
-A: Check browser permissions. Reload page, allow camera & microphone access.
-   Use Chrome or Edge for best compatibility.
-
-Q: "Federated server not connecting"
-A: Ensure server.py is running first, then start Streamlit app.
-   Check that port 8080 is not blocked by firewall.
 
 PRIVACY STATEMENT:
 =====================================
