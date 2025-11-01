@@ -121,12 +121,10 @@ Core Libraries:
 
 PRIVACY STATEMENT:
 =====================================
-
+```
 ✅ All processing happens on your local device
 ✅ Raw video, audio, and health data NEVER leave your computer
 ✅ Only anonymized model weights are shared to federated server
 ✅ No personal data is stored centrally
 ✅ Compliant with healthcare privacy standards
-
-For questions or contributions, refer to your hackathon guidelines.
-Good luck! 💜
+```
